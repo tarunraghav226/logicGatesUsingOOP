@@ -28,9 +28,4 @@ public class NOTGate{
         System.out.println("----Truth Table For NOT Gate----");
         printOutput();
     }
-
-    public static void main(String[] args) {
-        NOTGate o =new NOTGate();
-        o.printTruthTable();
-    }
 }
