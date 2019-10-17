@@ -38,4 +38,9 @@ public class XNORGate{
         System.out.println("----Truth Table For XNOR Gate----");
         printOutput();
     }
+
+    public static void main(String[] args) {
+        XNORGate o = new XNORGate();
+        o.printTruthTable();
+    }
 }
