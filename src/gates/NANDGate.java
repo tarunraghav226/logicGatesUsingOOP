@@ -23,7 +23,7 @@ public class NANDGate{
     private  int getOutput(int input1,int input2){
         setInput1(input1);
         setInput2(input2);
-        return (this.input1==1 || this.input2==1)?0:1;
+        return (this.input1==1 && this.input2==1)?0:1;
     }
 
     private void printOutput(){
