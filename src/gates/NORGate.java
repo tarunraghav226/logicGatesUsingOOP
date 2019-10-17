@@ -38,9 +38,4 @@ public class NORGate{
         System.out.println("----Truth Table For NOR Gate----");
         printOutput();
     }
-
-    public static void main(String[] args) {
-        NORGate o =new NORGate();
-        o.printTruthTable();
-    }
 }
